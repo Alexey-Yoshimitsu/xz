@@ -4,19 +4,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDm1tzZaALyV4P7aXt64fa4jFnn6fiZBgM",
-
-  authDomain: "nodal-strength-300722.firebaseapp.com",
-
-  databaseURL: "https://nodal-strength-300722-default-rtdb.europe-west1.firebasedatabase.app",
-
-  projectId: "nodal-strength-300722",
-
-  storageBucket: "nodal-strength-300722.appspot.com",
-
-  messagingSenderId: "547710001017",
-
-  appId: "1:547710001017:web:bc95ca54c6a648c00659a8"
+ //keys
 };
 
 if (!firebase.apps.length) {
